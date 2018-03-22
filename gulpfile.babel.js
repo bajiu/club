@@ -7,7 +7,7 @@ import del from 'del';
 import devConfig from './build/webpack.dev';
 import packConfig from './build/webpack.pack';
 // import mainConfig from './config/webpack.main';
-
+ 
 import runSequence from 'run-sequence';
 let devCompiler = null;
 const env = gulp.env;
